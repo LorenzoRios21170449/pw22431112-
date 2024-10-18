@@ -1,0 +1,151 @@
+body{
+    margin: 0px auto;
+}
+
+header{
+    background: black;
+    padding: -100px;
+}
+header nav{
+    margin-left: 20px;
+}
+
+.blancon{
+color: white;
+font-weight: bold;
+}
+
+#textheader{
+font-size: 25px;
+position: relative;
+top: -33px;
+}
+
+#botonsumbit{
+    position: relative;
+    margin-left: 700px;
+    top: -33px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(52, 48, 48);
+    color: white;
+    border-color:white;
+    border-radius: 1px white;
+}
+
+#botonsign{
+    position:relative; 
+    top:-33px;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    background: rgb(34, 68, 179);
+    margin: 10px;
+    border-color: rgb(34, 68, 179);
+}
+
+
+.seccioncentro{
+text-align: center;
+}
+
+#textocentro{
+    font-size: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#art1{
+    padding-top: 60px;
+    background-color: rgb(192, 195, 239);
+    height: 400px;
+}
+
+#barrabus{
+    margin-top: 40px;
+    margin-left: 270px;
+    background-color: white;
+    width: 750px;
+    height: 25px;
+    text-align: left;
+}
+
+.gridcontenedor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,-50px);
+    gap: 60px;
+    margin: 50px auto;
+    justify-items: center; 
+    align-items: left;
+    padding: 0 20px;
+   
+}
+
+.gridcontenido img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: -70px;
+    margin-top: 20px;
+    margin-right: 10px;
+}   
+
+
+.negrita{
+    font-weight: bold;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+footer{
+height:300px;
+background-color:  black;
+
+}
+
+table{
+    color: white;
+    
+}
+
+th{
+    font-size: 25px;
+}
+
+td{
+    font-size: 20;
+}
+
+.columna1{
+    margin-left: 30px;
+}
+
+.columna2{
+    margin-left: 250px;
+    margin-top: -60px;
+}
+
+.columna3{
+    margin-left: 450px;
+    margin-top: -145px;
+}
+
+.columna4{
+    margin-left: 680px;
+    margin-top: -168px;
+}
+
+footer li{
+    list-style: none;
+    color: white;
+margin-left: 980px;
+margin-top: 1px;    
+}
+
+#abfooter{
+ margin-left: 970px;
+ margin-top: -65px;
+ height: 50px;
+}

@@ -1,0 +1,174 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    /*recomendacion del cliente */
+    max-width: 1078px;
+    min-width: 1078px;
+}
+
+footer{
+    background: rgba(60,101,177,1);
+    color: white;
+    margin-top: 40px;
+}
+
+footer article{
+    display: inline-block;
+    width: 32.8%;
+}
+
+header input{
+    float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+}
+
+header nav{
+    /*border: 1px solid red;*/
+    margin-left: 220px;
+    /*text-align: center;*/
+}
+
+header nav ul li{
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    padding-bottom: 2px;
+    /*text-decoration: underline;*/
+}
+
+#bgoffer{
+    /*static es por defecto*/
+    left: -35px;
+    top: -406px;
+    position: relative;
+}
+
+#granthams{
+margin-left: 25px;
+margin-top: 25px;
+}
+
+#paint{
+    float: right;
+}
+
+#primerSeccion{
+    height: 318px;
+    margin-top: 60px;
+
+}
+
+#primerSeccion article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#secc01art01{
+    width: 60%;
+    margin-left: 30px;
+    
+}
+
+#secc01art02{
+    margin-left: 50px;
+    width: 30%;
+}
+
+#secc01art02 ul{
+    /*se borra el circulo negro*/ 
+    list-style: none;
+    margin-left: -40px;
+
+}
+
+#secc01art02 ul li:before{
+    /*se pinta el circulo rosa*/
+    content: "• ";
+    color: #FF0099;
+}
+
+#secc03art04{
+    margin-top: 40px;
+}
+
+#secc03art04 input[type="button"] {
+    background: green;
+    color: white;
+}
+
+#seec03art04 input{
+    border-radius: 10px;
+}
+
+#artf input[type="button"]{
+    background: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+    margin-left: 215px;
+    height: 30px;
+}
+
+#segundaSeccion article{
+    margin-right: 165px;
+    text-align: right;
+}
+
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+
+#twitter{
+    vertical-align: top;
+    margin-top: -195px;
+    margin-left: 55em;
+    width: 5%;
+}
+
+#facebook{
+    vertical-align: top;
+    margin-top: -175px;
+    margin-left: 50em;
+    width: 5%;
+}
+
+#personas{
+    vertical-align:top;
+    margin-top: -240px;
+    
+}
+
+
+
+.colorazul{
+ color: #4267B3;
+}
+
+.colorrosa{
+    color: #FF0099
+}
+
+.colorverde{
+    color: green;
+}
+
+.letramediana{
+    font-size: 2em;
+}
+
+.letragrande{
+    font-size: 3.5em;
+}
+
+.nito{
+    font-weight: bold;
+}

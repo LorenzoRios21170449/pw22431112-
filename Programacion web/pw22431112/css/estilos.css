@@ -1,0 +1,39 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+footer{
+    border: 1px solid blue;
+}
+header img{
+    border-radius: 500px;
+    width: 50px;
+}
+
+header nav ol{
+    text-align: center;
+}
+header nav ol li{
+    background: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 1px black;
+    color: white;
+    display: inline-block;
+    margin-right: 25px;
+    /* padding: 12px; */
+    padding: 10px 26px;
+}
+header nav ol li:hover{
+    background: white;
+    box-shadow: 0px 0px 0px white;
+    color: blue;
+}
+main section article{
+    /* border: 1px solid red; */
+    display: inline-block;
+    vertical-align: top;
+    width: 32.9%;
+}
